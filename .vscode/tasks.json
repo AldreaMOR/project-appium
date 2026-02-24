@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Appium Session",
+            "type": "shell",
+            "command": "mvn",
+            "args": [
+                "exec:java",
+                "-Dexec.mainClass=com.example.CreateDriverSession"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

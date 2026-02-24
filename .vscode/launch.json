@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run CreateDriverSession via Maven",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "mainClass": "com.example.CreateDriverSession",
+      "projectName": "projectappiumqa",
+      "env": {},
+      "vmArgs": [],
+      "args": [],
+      "preLaunchTask": "Run Appium Session"
+    }
+  ]
+}
